@@ -11,6 +11,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 2rem; /* 20px */
   color: var(--primary-color);
+  line-height: 1.5;
 }
 
 h1,
@@ -28,7 +29,10 @@ h1 {
 }
 
 h2 {
-  font-size: 5.5rem; /* 55px */
+  font-size: 6rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1.2;
 }
 
 h3 {
