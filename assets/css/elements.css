@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem; /* 20px */
+  color: var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 6rem; /* 60px */
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 5.5rem; /* 55px */
+}
+
+h3 {
+  font-size: 5rem; /* 50px */
+}
+
+h4 {
+  font-size: 4.5rem; /* 45px */
+}
+
+h5 {
+  font-size: 4rem; /* 40px */
+}
+
+h6 {
+  font-size: 3.5rem; /* 35px */
+}
+
+a {
+  text-decoration: none;
+}
