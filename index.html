@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./assets/css/menu.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
-  <body class="main-bg">
+  <body>
     <!--  MENU -->
     <aside class="menu white-bg">
       <div class="main-content menu-content">
@@ -27,12 +27,13 @@
             <li><a href="#grid-one">grid-one</a></li>
             <li><a href="#gallery">gallery</a></li>
             <li><a href="#pricing">pricing</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="#contact">contact</a></li>
           </ul>
         </nav>
       </div>
     </aside>
     <div class="menu-spacing"></div>
+
     <!--  HOME -->
     <section id="home" class="intro main-bg section">
       <div class="main-content intro-content">
@@ -215,5 +216,85 @@
         </div>
       </div>
     </section>
+
+    <!--  CONTACT -->
+    <section id="contact" class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h2>Contact us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+            vitae fuga non repudiandae error ipsum dolorem fugit. Consectetur
+            harum adipisci in corrupti, nulla dolores deserunt minus? Voluptas
+            assumenda recusandae aliquid?
+          </p>
+        </div>
+        <div class="intro-img">
+          <img src="./assets/img/javascript.svg" alt="HTML, CSS and JS logo" />
+        </div>
+        <div class="contact-form">
+          <fieldset class="form-grid">
+            <legend>Contact</legend>
+
+            <div class="form-group">
+              <label for="first-name">First name</label>
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="Your first name"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="last-name">Last name</label>
+              <input
+                type="text"
+                name="last-name"
+                id="last-name"
+                placeholder="Your last name"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your e-mail"
+              />
+            </div>
+
+            <div class="form-group full-width">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Your message"
+              ></textarea>
+            </div>
+
+            <div class="form-group full-width">
+              <button type="submit">Send message</button>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </section>
+
+    <!--  FOOTER -->
+    <footer id="footer" class="footer white-bg">
+      <p>
+        <a
+          rel="nofollow"
+          target="_blank"
+          href="https://www.linkedin.com/in/d-nascimento/"
+          >Made with <span class="heart">❤</span> by Danielle Nascimento</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
